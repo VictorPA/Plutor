@@ -31,7 +31,7 @@ public class Import {
 		while (scanner.hasNextLine()) {
 			tableauDeLignes[positionLigne] = scanner.nextLine();
 			if (tableauDeLignes[positionLigne].length() > colonnes) {
-				colonnes = tableauDeLignes[positionLigne].length();
+				colonnes = tableauDeLignes[positionLigne].length() + 1;
 			}
 
 			++positionLigne;
@@ -40,11 +40,19 @@ public class Import {
 		for (positionLigne = 0; positionLigne < lignes; ++positionLigne) {
 			tableau2D[positionLigne] = tableauDeLignes[positionLigne].toCharArray();
 		}
-
+		scanner.close();
 	}
 
 	public char[][] getTableau() {
 		return tableau2D;
+	}
+
+	public int getNombresLignes() {
+		return lignes;
+	}
+
+	public int getNombresColonnes() {
+		return colonnes;
 	}
 
 }

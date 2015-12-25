@@ -16,17 +16,17 @@ import film.Image;
  * @author user
  *
  */
-public class Export {
+public class ExportImageOld {
 
 	String[] tableauChaînes;
-	
-	
-	public Export(Image image) {
+
+	// public Export(ArrayList <Image> film) {
+	public ExportImageOld(Image image) {
 		char[][] tableau = image.getImage();
 		tableauChaînes = new String[tableau.length];
 		for (int i = 0; i < tableau.length; ++i) {
 			tableauChaînes[i] = new String(tableau[i]);
-			//System.out.println(tableauChaînes[i]);
+			// System.out.println(tableauChaînes[i]);
 		}
 	}
 
