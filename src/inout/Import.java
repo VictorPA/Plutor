@@ -31,11 +31,12 @@ public class Import {
 		while (scanner.hasNextLine()) {
 			tableauDeLignes[positionLigne] = scanner.nextLine();
 			if (tableauDeLignes[positionLigne].length() > colonnes) {
-				colonnes = tableauDeLignes[positionLigne].length() + 1;
+				colonnes = tableauDeLignes[positionLigne].length();
 			}
-
+				
 			++positionLigne;
 		}
+		colonnes = colonnes + 1;
 		tableau2D = new char[lignes][colonnes];
 		for (positionLigne = 0; positionLigne < lignes; ++positionLigne) {
 			tableau2D[positionLigne] = tableauDeLignes[positionLigne].toCharArray();
