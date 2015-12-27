@@ -3,16 +3,24 @@ package film;
 import inout.Import;
 import static java.lang.Math.*;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
+
 public class Image {
 
 	private int lignes;
 	private int colonnes;
 	private char[][] tableauDeCaractères;
+	private ArrayList<Triplet<Element, Integer>> groupeElements; // à voir si on
+																	// utilise
+	// private HashMap<Integer, Element> mapElements;
 
 	public Image(int lignes, int colonnes) {
 		this.lignes = lignes;
 		this.colonnes = colonnes;
-		char[][] tableau = new char[lignes][colonnes];
+		tableauDeCaractères = new char[lignes][colonnes];
+		groupeElements = new ArrayList<Triplet<Element, Integer>>();
 	}
 
 	/**
@@ -22,6 +30,7 @@ public class Image {
 	public Image(Import imp) {
 
 		tableauDeCaractères = new char[imp.getTableau().length][];
+		groupeElements = new ArrayList<Triplet<Element, Integer>>();
 		copier(imp);
 		this.lignes = imp.getNombresLignes();
 		this.colonnes = imp.getNombresColonnes();
@@ -31,9 +40,22 @@ public class Image {
 	public Image(Image image) {
 
 		tableauDeCaractères = new char[image.tableauDeCaractères.length][];
+		groupeElements = new ArrayList<Triplet<Element, Integer>>();
 		copier(image);
 		this.lignes = image.getNombresLignes();
 		this.colonnes = image.getNombresColonnes();
+
+	}
+
+	private static class Triplet<E, C> {
+		private E element;
+		private C x, y;
+
+		public Triplet(E element, C x, C y) {
+			this.element = element;
+			this.x = x;
+			this.y = y;
+		}
 
 	}
 
@@ -79,19 +101,31 @@ public class Image {
 	 * @param y
 	 *            colonne du coin en haut à gauche
 	 */
+
 	public void ajouterElement(Element element, int x, int y) {
-		char[][] tableauElement = element.getTableauElement();
-		try {
-			for (int ligne = 0; ligne < tableauElement.length; ++ligne) {
-				for (int colonne = 0; colonne < tableauElement[ligne].length; ++colonne) {
-					tableauDeCaractères[x + ligne][y + colonne] = tableauElement[ligne][colonne];
+		Triplet<Element, Integer> triplet = new Triplet<Element, Integer>(element, x, y);
+		// ici on garde les références sur l'element, car si on modifie
+		// l'élément il faut que celui du triplet soit modifié
+		groupeElements.add(triplet);
+	}
+	
+
+	public void appliquerElements(){
+		for(Triplet<Element, Integer> triplet : groupeElements){
+			char[][] tableauElement = triplet.element.getTableauElement();
+			try {
+				for (int ligne = 0; ligne < tableauElement.length; ++ligne) {
+					for (int colonne = 0; colonne < tableauElement[ligne].length; ++colonne) {
+						tableauDeCaractères[triplet.x + ligne][triplet.y + colonne] = tableauElement[ligne][colonne];
+					}
 				}
+			} catch (IndexOutOfBoundsException e) {
+				System.out.println(e + " POURQUOI 22 NANIIIIIIIIIIIIII");
+				return;
 			}
-		} catch (IndexOutOfBoundsException e) {
-			System.out.println(e + " POURQUOI 22 NANIIIIIIIIIIIIII");
-			return;
 		}
 	}
+
 
 	public void ajouterElementNoScrrrtch(Element element, int x, int y) {
 		char[][] tableauElement = element.getTableauElement();

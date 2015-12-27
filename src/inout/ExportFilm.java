@@ -24,8 +24,8 @@ public class ExportFilm {
 
 	public ExportFilm(Film filmObject) {
 		ArrayList<Image> film = filmObject.getFilm();
-		entête = "" + filmObject.getFirstImage().getNombresLignes() + " "
-				+ filmObject.getFirstImage().getNombresColonnes();
+		entête = "" + filmObject.getFirstImage().getNombresColonnes() + " "
+				+ filmObject.getFirstImage().getNombresLignes();
 		tableauDeTableauChaînes = new String[film.size()][];
 
 		for (Image g : film) {
@@ -49,7 +49,7 @@ public class ExportFilm {
 				lines.add(s);
 			}
 			if (i < tableauDeTableauChaînes.length - 1)
-				lines.add("/newframe");
+				lines.add("\\newframe");
 		}
 
 		// List<String[]> lines = Arrays.asList(tableauDeTableauChaînes);

@@ -2,39 +2,43 @@ package film;
 
 public class Element {
 
-	private int ligneHaut;
-	private int ligneBas;
-	private int colonneGauche;
-	private int colonneDroite;
+	private int nombreLignes;
+	private int nombreColonnes;
 
 	private char[][] tableauElement;
 
-	public Element(Image image, int ligneHaut, int ligneBas, int colonneGauche, int colonneDroite) throws Exception {
+	public Element(Image image, int ligneSup, int ligneInf, int colonneGauche, int colonneDroite) throws Exception {
 		if (image == null)
 			throw new Exception("Image non définie");
-		if (ligneHaut < 0 || ligneBas < 0 || colonneDroite < 0 || colonneGauche < 0) {
+		if (ligneSup < 0 || ligneInf < 0 || colonneDroite < 0 || colonneGauche < 0) {
 			throw new Exception("Valeur négatives incorrectes");
 		}
-		if (ligneHaut > image.getNombresLignes() || ligneBas > image.getNombresLignes()
+		if (ligneSup > image.getNombresLignes() || ligneInf > image.getNombresLignes()
 				|| colonneDroite > image.getNombresColonnes() || colonneGauche > image.getNombresColonnes()) {
 			throw new Exception("Trop grosses valeurs");
 		}
-		if (ligneHaut > ligneBas || colonneDroite < colonneGauche) {
+		if (ligneSup > ligneInf || colonneDroite < colonneGauche) {
 			throw new Exception("Méchant");
 		}
-		this.ligneHaut = ligneHaut - 1;
-		this.ligneBas = ligneBas - 1;
-		this.colonneGauche = colonneGauche - 1;
-		this.colonneDroite = colonneDroite - 1;
-		copierTableau(image);
-
+		this.nombreLignes = ligneInf - ligneSup;
+		this.nombreColonnes = colonneDroite - colonneGauche;
+		
+		
+		copierTableau(image, ligneSup, ligneInf, colonneGauche, colonneDroite);
 	}
+	
+	public Element(int nombreLignes, int nombreColonnes){
+		this.nombreLignes = nombreLignes;
+		this.nombreColonnes = nombreColonnes;
+		tableauElement = new char[nombreLignes][nombreColonnes];
+	}
+	
 
-	private void copierTableau(Image image) {
-		tableauElement = new char[Math.abs(ligneBas - ligneHaut)][Math.abs(colonneDroite - colonneGauche)];
-		for (int ligne = 0; ligne < ligneBas - ligneHaut; ++ligne) {
-			for (int colonne = 0; colonne < colonneDroite - colonneGauche; ++colonne) {
-				tableauElement[ligne][colonne] = image.getImage()[ligneHaut + ligne][colonneGauche + colonne];
+	private void copierTableau(Image image, int ligneSup, int ligneInf, int colonneGauche, int colonneDroite) {
+		tableauElement = new char[Math.abs(this.nombreLignes)][Math.abs(this.nombreColonnes)];
+		for (int ligne = 0; ligne < nombreLignes; ++ligne) {
+			for (int colonne = 0; colonne < nombreColonnes; ++colonne) {
+				tableauElement[ligne][colonne] = image.getImage()[ligneSup + ligne][colonneGauche + colonne];
 			}
 		}
 	}
