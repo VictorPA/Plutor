@@ -17,25 +17,45 @@ public class Element {
 				|| colonneDroite > image.getNombresColonnes() || colonneGauche > image.getNombresColonnes()) {
 			throw new Exception("Trop grosses valeurs");
 		}
-		if (ligneSup > ligneInf || colonneDroite < colonneGauche) {
-			throw new Exception("Méchant");
-		}
-		this.nombreLignes = ligneInf - ligneSup;
-		this.nombreColonnes = colonneDroite - colonneGauche;
-		
-		
+		this.nombreLignes = Math.abs(ligneInf - ligneSup);
+		this.nombreColonnes = Math.abs(colonneDroite - colonneGauche);
+
 		copierTableau(image, ligneSup, ligneInf, colonneGauche, colonneDroite);
 	}
-	
-	public Element(int nombreLignes, int nombreColonnes){
+
+	public Element(int nombreLignes, int nombreColonnes) {
 		this.nombreLignes = nombreLignes;
 		this.nombreColonnes = nombreColonnes;
 		tableauElement = new char[nombreLignes][nombreColonnes];
 	}
+
+	public Element(int nombreLignes, int nombreColonnes, char signe) {
+		this.nombreLignes = nombreLignes;
+		this.nombreColonnes = nombreColonnes;
+		tableauElement = new char[nombreLignes][nombreColonnes];
+		for (int i = 0; i < nombreLignes; ++i) {
+			for (int c = 0; c < nombreColonnes; ++c) {
+				tableauElement[i][c] = signe;
+			}
+		}
+	}
 	
+	public Element(int cote, char signe) {
+		this.nombreLignes = cote;
+		this.nombreColonnes = cote;
+		tableauElement = new char[nombreLignes][nombreColonnes];
+		for (int i = 0; i < nombreLignes; ++i) {
+			for (int c = 0; c < nombreColonnes; ++c) {
+				if(i == cote - c)
+					tableauElement[i][c] = signe;
+				else
+					tableauElement[i][c] = ' ';
+			}
+		}
+	}
 
 	private void copierTableau(Image image, int ligneSup, int ligneInf, int colonneGauche, int colonneDroite) {
-		tableauElement = new char[Math.abs(this.nombreLignes)][Math.abs(this.nombreColonnes)];
+		tableauElement = new char[this.nombreLignes][this.nombreColonnes];
 		for (int ligne = 0; ligne < nombreLignes; ++ligne) {
 			for (int colonne = 0; colonne < nombreColonnes; ++colonne) {
 				tableauElement[ligne][colonne] = image.getImage()[ligneSup + ligne][colonneGauche + colonne];

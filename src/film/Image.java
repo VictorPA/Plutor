@@ -1,11 +1,8 @@
 package film;
 
-import inout.Import;
-import static java.lang.Math.*;
-
 import java.util.ArrayList;
-import java.util.HashMap;
 
+import inout.Import;
 
 public class Image {
 
@@ -20,6 +17,7 @@ public class Image {
 		this.lignes = lignes;
 		this.colonnes = colonnes;
 		tableauDeCaractères = new char[lignes][colonnes];
+		initialiserTableau(' ');
 		groupeElements = new ArrayList<Triplet<Element, Integer>>();
 	}
 
@@ -30,6 +28,7 @@ public class Image {
 	public Image(Import imp) {
 
 		tableauDeCaractères = new char[imp.getTableau().length][];
+		initialiserTableau(' ');
 		groupeElements = new ArrayList<Triplet<Element, Integer>>();
 		copier(imp);
 		this.lignes = imp.getNombresLignes();
@@ -40,11 +39,26 @@ public class Image {
 	public Image(Image image) {
 
 		tableauDeCaractères = new char[image.tableauDeCaractères.length][];
-		groupeElements = new ArrayList<Triplet<Element, Integer>>();
+		initialiserTableau(' ');
+		this.groupeElements = new ArrayList<Triplet<Element, Integer>>();
+		/*
+		 * for (Triplet<Element, Integer> triplet : image.groupeElements) {
+		 * Triplet<Element, Integer> tripletA = triplet.element.
+		 * this.groupeElements.add(triplet); }
+		 */
+
 		copier(image);
 		this.lignes = image.getNombresLignes();
 		this.colonnes = image.getNombresColonnes();
 
+	}
+
+	private void initialiserTableau(char a) {
+		for (int l = 0; l < lignes; ++l) {
+			for (int c = 0; c < colonnes; ++c) {
+				tableauDeCaractères[l][c] = a;
+			}
+		}
 	}
 
 	private static class Triplet<E, C> {
@@ -56,6 +70,10 @@ public class Image {
 			this.x = x;
 			this.y = y;
 		}
+		/*
+		 * public Triplet<Element e, int c> copierTriplet(){ Element e = new
+		 * Element(); }
+		 */
 
 	}
 
@@ -108,10 +126,9 @@ public class Image {
 		// l'élément il faut que celui du triplet soit modifié
 		groupeElements.add(triplet);
 	}
-	
 
-	public void appliquerElements(){
-		for(Triplet<Element, Integer> triplet : groupeElements){
+	public void appliquerElements() {
+		for (Triplet<Element, Integer> triplet : groupeElements) {
 			char[][] tableauElement = triplet.element.getTableauElement();
 			try {
 				for (int ligne = 0; ligne < tableauElement.length; ++ligne) {
@@ -126,21 +143,38 @@ public class Image {
 		}
 	}
 
-
-	public void ajouterElementNoScrrrtch(Element element, int x, int y) {
-		char[][] tableauElement = element.getTableauElement();
-		try {
-			for (int ligne = 0; ligne < tableauElement.length; ++ligne) {
-				for (int colonne = 0; colonne < tableauElement[ligne].length; ++colonne) {
-					if (tableauDeCaractères[x + ligne][y + colonne] == '\0'
-							|| tableauDeCaractères[x + ligne][y + colonne] == ' ')
-						tableauDeCaractères[x + ligne][y + colonne] = tableauElement[ligne][colonne];
+	public void appliquerElementsSansEcraser() {
+		for (Triplet<Element, Integer> triplet : groupeElements) {
+			char[][] tableauElement = triplet.element.getTableauElement();
+			try {
+				for (int ligne = 0; ligne < tableauElement.length; ++ligne) {
+					for (int colonne = 0; colonne < tableauElement[ligne].length; ++colonne) {
+						if (tableauDeCaractères[triplet.x + ligne][triplet.y + colonne] == '\0'
+								|| tableauDeCaractères[triplet.x + ligne][triplet.y + colonne] == ' ')
+							tableauDeCaractères[triplet.x + ligne][triplet.y
+									+ colonne] = tableauElement[ligne][colonne];
+					}
 				}
+			} catch (IndexOutOfBoundsException e) {
+				System.out.println(e + " POURQUOI 22 NANIIIIIIIIIIIIII");
+				return;
 			}
-		} catch (IndexOutOfBoundsException e) {
-			System.out.println(e + " POURQUOI 22 NANIIIIIIIIIIIIII");
-			return;
 		}
 	}
 
+	public void insererLigneMonter(int ligne) {
+
+	}
+
+	public void insererLigneDescendre() {
+
+	}
+
+	public void insererColonneDecalerGauche() {
+
+	}
+
+	public void insererLigneDecalerDroite() {
+
+	}
 }

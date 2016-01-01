@@ -1,4 +1,4 @@
-100 54
+50 50
 
 
 
@@ -8,49 +8,45 @@
 
 
 
-                                    .                                             ..gNJ.
-                                    HN,                                          .MMMMMF
-                                    JMMMa.                                     .dMMMMM#` ..dMN,
-                                    .MMMMMm,                                  .MMMMMMF .dMMMMMM
-                                    ,MMMMMMMN,                               .MMMMMMF.dMMMMMMM^
-                                    ,MMMMMMMMMm,                     .MMMN&. dMMMMMMNMMMMMMM"
-                                    ,MMMMMMMMMMMa.                   TMMMMMMgMMMMMMMMMMMMM3    `
-                                    ,MMMMMMMMMMMMM,                   .UMMMMMMMMMMMMMMMMMu.gMMMMMN,
-                                    ,MMMMMMMMMMMMMMN,                   dMMMMMMMMMMMMMMMMMMMMMMMMM#
-                                    ,MMMMMMMMMMMMMMMMb                  ,MMMMMMMMMMMMMMMMMMMMMM""^
-                                    JMMMMMMMMMMMMMMMMMN,                ,MMMMMMMMMMMMMMMMM"!
-                                    JMMMMMMMMMMMMMMMMMMMp                dMMMMMMMMMMMMMM"
-                                    gMMMMMMMMMMMMMMMMMMMMN,             .MMMMMMMMMMMMMD
-                                    dMMMMMH5==lltrrZMMMMMMM,          .JMMB=` `"""""!
-                                    MMMM@?`.?=llttrzuXMN`.MMp      ..MMB^
-                                   .MMM8==??==lltrrzuuMM;  WMm...JMM#=
-                                   .MMMOllllllttrrzuuZMM`   WMMMMMMt
-                                   JMMMKrttttrrrwwWppNMF     WMMMMF
-                                   dMMMMmvvvvvvwpppWNMD       WMMM$
-                                  .MM# ?MNNmXXXXQNMM@`         WMMF
-                                 .MMMt   .""MMMM""!             MMN
-                                .MMMM                           .MMp
-                               .MMMMF                            JMM,
-                              JMMMMM'                             4MN.
-                            .MMB?MM#                               MMb
-                            dMF .MM%                               ,MM;
-                            MM` JMM                                 WMN
-                            dM, MMF                                 .MM|
-                            ,MN.MM\                                  dMN
-                             dMMM#                                   ,MM,
-                             JMMMF                                    MMr
-                             JMMM:                                    dMN
-                           `.MMM#                                     JMN
-                         `.JMMMMF                                     ,MM.
-                         .MMMMMM%                .....                .MM:
-                         MMMMMMM`           ..gMMMMMMMMNa,            .MM:
-                          TWH4M#          .MMMM""!    ?TMMN,          JMM:
-                             JM#       ..MMM"`           ,WMN,        JMM`
-                             JM#     .JMM@'                JMMb       dM#
-                             JMN.  .dMM"                     WMN,    .MMF
-                             ,MMMMMM#^                        7MM,   JMM`
-                               7""!                            ,MMMMMM@`
-                                                                 .7?`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          X
+
+
+
+
+
+
+
+
 
 
 \newframe
@@ -63,49 +59,45 @@
 
 
 
-                                    .                                             ..gNJ.
-                                    HN,                                          .MMMMMF
-                                    JMMMa.                                     .dMMMMM#` ..dMN,
-                                    .MMMMMm,                                  .MMMMMMF .dMMMMMM
-                                    ,MMMMMMMN,                               .MMMMMMF.dMMMMMMM^
-                                    ,MMMMMMMMMm,                     .MMMN&. dMMMMMMNMMMMMMM"
-                                    ,MMMMMMMMMMMa.                   TMMMMMMgMMMMMMMMMMMMM3    `
-                                    ,MMMMMMMMMMMMM,                   .UMMMMMMMMMMMMMMMMMu.gMMMMMN,
-                                    ,MMMMMMMMMMMMMMN,                   dMMMMMMMMMMMMMMMMMMMMMMMMM#
-                                    ,MMMMMMMMMMMMMMMMb                  ,MMMMMMMMMMMMMMMMMMMMMM""^
-                                    JMMMMMMMMMMMMMMMMMN,                ,MMMMMMMMMMMMMMMMM"!
-                                    JMMMMMMMMMMMMMMMMMMMp                dMMMMMMMMMMMMMM"
-                                    gMMMMMMMMMMMMMMMMMMMMN,             .MMMMMMMMMMMMMD
-                                    dMMMMMH5==lltrrZMMMMMMM,          .JMMB=` `"""""!
-                                    MMMM@?`.?=llttrzuXMN`.MMp      ..MMB^
-                                   .MMM8==??==lltrrzuuMM;  WMm...JMM#=
-                                   .MMMOllllllttrrzuuZMM`   WMMMMMMt
-                                   JMMMKrttttrrrwwWppNMF     WMMMMF
-                                   dMMMMmvvvvvvwpppWNMD       WMMM$
-                                  .MM# ?MNNmXXXXQNMM@`         WMMF
-                                 .MMMt   .""MMMM""!             MMN
-                                .MMMM                           .MMp
-                               .MMMMF                            JMM,
-                              JMMMMM'                             4MN.
-                            .MMB?MM#                               MMb
-                            dMF .MM%                               ,MM;
-                            MM` JMM                                 WMN
-                            dM, MMF                                 .MM|
-                            ,MN.MM\                                  dMN
-                             dMMM#                                   ,MM,
-                             JMMMF                                    MMr
-                             JMMM:                                    dMN
-                      MMMMMMMMMMMMMMMMMMMM                            JMN
-                      MMMMMH5==lltrrZMMMMM                            ,MM.
-                      MMM@?`.?=llttrzuXMN`       .....                .MM:
-                      MM8==??==lltrrzuuMM;  ..gMMMMMMMMNa,            .MM:
-                      MMOllllllttrrzuuZMM`.MMMM""!    ?TMMN,          JMM:
-                      MMKrttttrrrwwWppNMF MM"`           ,WMN,        JMM`
-                      MMMmvvvvvvwpppWNMD  '                JMMb       dM#
-                      # ?MNNmXXXXQNMM@`                      WMN,    .MMF
-                      t   .""MMMM""!                          7MM,   JMM`
-                                                               ,MMMMMM@`
-                                                                 .7?`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XX
+
+
+
+
+
+
+
+
 
 
 \newframe
@@ -118,48 +110,4532 @@
 
 
 
-                                    .                                             ..gNJ.
-                                    HN,                                          .MMMMMF
-                                    JMMMa.                                     .dMMMMM#` ..dMN,
-                                    .MMMMMm,                                  .MMMMMMF .dMMMMMM
-                                    ,MMMMMMMN,                               .MMMMMMF.dMMMMMMM^
-                                    ,MMMMMMMMMm,                     .MMMN&. dMMMMMMNMMMMMMM"
-                                    ,MMMMMMMMMMMa.                   TMMMMMMgMMMMMMMMMMMMM3    `
-                                    ,MMMMMMMMMMMMM,                   .UMMMMMMMMMMMMMMMMMu.gMMMMMN,
-                                    ,MMMMMMMMMMMMMMN,                   dMMMMMMMMMMMMMMMMMMMMMMMMM#
-                                    ,MMMMMMMMMMMMMMMMb                  ,MMMMMMMMMMMMMMMMMMMMMM""^
-                                    JMMMMMMMMMMMMMMMMMN,                ,MMMMMMMMMMMMMMMMM"!
-                                    JMMMMMMMMMMMMMMMMMMMp                dMMMMMMMMMMMMMM"
-                                    gMMMMMMMMMMMMMMMMMMMMN,             .MMMMMMMMMMMMMD
-                                    dMMMMMH5==lltrrZMMMMMMM,          .JMMB=` `"""""!
-                                    MMMM@?`.?=llttrzuXMN`.MMp      ..MMB^
-                                   .MMM8==??==lltrrzuuMM;  WMm...JMM#=
-                                   .MMMOllllllttrrzuuZMM`   WMMMMMMt
-                                   JMMMKrttttrrrwwWppNMF     WMMMMF
-                                   dMMMMmvvvvvvwpppWNMD       WMMM$
-                                  .MM# ?MNNmXXXXQNMM@`         WMMF
-                                 .MMMt   .""MMMM""!             MMN
-                                .MMMM                           .MMp
-                               .MMMMF                            JMM,
-                              JMMMMM'                             4MN.
-                            .MMB?MM#                               MMb
-                            dMF .MM%                               ,MM;
-                            MM` JMM                                 WMN
-                            dM, MMF                                 .MM|
-                            ,MN.MM\                                  dMN
-                             dMMM#                                   ,MM,
-                             JMMMF                                    MMr
-                             JMMM:                                    dMN
-                      MMMMMMMMMMMMMMMMMMMM                            JMN
-                      MMMMMH5==lltrrZMMMMM                            ,MM.
-                      MMM@?`.?=llttrzuXMN`       .....                .MM:
-                      MM8==??==lltrrzuuMM;  ..gMMMMMMMMNa,            .MM:
-                      MMOllllllttrrzuuZMM`.MMMM""!    ?TMMN,          JMM:
-                      MMKrttttrrrwwWppNMF MM"`           ,WMN,        JMM`
-                      MMMmvvvvvvwpppWNMD  '                JMMb       dM#
-                      # ?MNNmXXXXQNMM@`                      WMN,    .MMF
-                      t   .""MMMM""!                          7MM,   JMM`
-                                                               ,MMMMMM@`
-                                                                 .7?`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                      X                X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                      X                X
+                     X                 X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                      X                X
+                     X                 X
+                    X                  X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                      X                X
+                     X                 X
+                    X                  X
+                   X                   X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                      X                X
+                     X                 X
+                    X                  X
+                   X                   X
+                  X                    X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                      X                X
+                     X                 X
+                    X                  X
+                   X                   X
+                  X                    X
+                 X                     X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                      X                X
+                     X                 X
+                    X                  X
+                   X                   X
+                  X                    X
+                 X                     X
+                X                      X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                      X                X
+                     X                 X
+                    X                  X
+                   X                   X
+                  X                    X
+                 X                     X
+                X                      X
+               X                       X
+                                       X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                      X                X
+                     X                 X
+                    X                  X
+                   X                   X
+                  X                    X
+                 X                     X
+                X                      X
+               X                       X
+              X                        X
+                                       X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                      X                X
+                     X                 X
+                    X                  X
+                   X                   X
+                  X                    X
+                 X                     X
+                X                      X
+               X                       X
+              X                        X
+             X                         X
+                                       X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                      X                X
+                     X                 X
+                    X                  X
+                   X                   X
+                  X                    X
+                 X                     X
+                X                      X
+               X                       X
+              X                        X
+             X                         X
+            X                          X
+                                       X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                      X                X
+                     X                 X
+                    X                  X
+                   X                   X
+                  X                    X
+                 X                     X
+                X                      X
+               X                       X
+              X                        X
+             X                         X
+            X                          X
+           X                           X
+                                       X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+\newframe
+
+
+
+
+
+
+
+
+
+
+                                       X
+                                      XX
+                                     X X
+                                    X  X
+                                   X   X
+                                  X    X
+                                 X     X
+                                X      X
+                               X       X
+                              X        X
+                             X         X
+                            X          X
+                           X           X
+                          X            X
+                         X             X
+                        X              X
+                       X               X
+                      X                X
+                     X                 X
+                    X                  X
+                   X                   X
+                  X                    X
+                 X                     X
+                X                      X
+               X                       X
+              X                        X
+             X                         X
+            X                          X
+           X                           X
+          X                            X
+          XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
 
 
