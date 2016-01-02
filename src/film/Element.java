@@ -22,13 +22,13 @@ public class Element {
 
 		copierTableau(image, ligneSup, ligneInf, colonneGauche, colonneDroite);
 	}
-
+/*
 	public Element(int nombreLignes, int nombreColonnes) {
 		this.nombreLignes = nombreLignes;
 		this.nombreColonnes = nombreColonnes;
 		tableauElement = new char[nombreLignes][nombreColonnes];
 	}
-
+*/
 	public Element(int nombreLignes, int nombreColonnes, char signe) {
 		this.nombreLignes = nombreLignes;
 		this.nombreColonnes = nombreColonnes;
@@ -40,20 +40,15 @@ public class Element {
 		}
 	}
 	
-	public Element(int cote, char signe) {
-		this.nombreLignes = cote;
-		this.nombreColonnes = cote;
+	public Element(char signe,int xLigne, int yColonne){
+		if(xLigne == 0 || yColonne == 0)
+			throw new IllegalArgumentException("valeurs négatives non autorisées");
+		this.nombreLignes = xLigne + 1;
+		this.nombreColonnes = yColonne + 1;
 		tableauElement = new char[nombreLignes][nombreColonnes];
-		for (int i = 0; i < nombreLignes; ++i) {
-			for (int c = 0; c < nombreColonnes; ++c) {
-				if(i == cote - c)
-					tableauElement[i][c] = signe;
-				else
-					tableauElement[i][c] = ' ';
-			}
-		}
+		
 	}
-
+	
 	private void copierTableau(Image image, int ligneSup, int ligneInf, int colonneGauche, int colonneDroite) {
 		tableauElement = new char[this.nombreLignes][this.nombreColonnes];
 		for (int ligne = 0; ligne < nombreLignes; ++ligne) {
