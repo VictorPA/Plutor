@@ -18,5 +18,6 @@ public final class Point {
 		return this.colonne;
 	}
 	
+	// faire une méthode equals 
 	
 }

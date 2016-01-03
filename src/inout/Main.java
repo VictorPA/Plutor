@@ -19,13 +19,24 @@ public class Main {
 		Import imp = new Import(FileSystems.getDefault().getPath("src", "inout", "rsrc", "image1.txt"));
 		
 		Image image1 = new Image(imp);
-		film.ajouterImage(image1);
+		
 		Image image2 = new Image(image1);
-		Element bouclier = new Element(image1, 21, 32, 37, 57);
-		image2.ajouterElement(bouclier, new Point(41,22), BAS_DROITE );
-		image2.appliquerElements();
-		film.ajouterImage(image2);
+		Element bouclier = new Element(image1, 21, 30, 37, 57);
+		Element trait = new Element('O', new Point(19,99), new Point(52,80));
+		image2.ajouterElement(bouclier, new Point(41,22), BAS_GAUCHE );
 
+		image2.ajouterElement(trait, new Point(19,99), HAUT_DROITE );
+		image2.appliquerElements();
+		
+		image1.ajouterElement(trait, new Point(19,99), HAUT_DROITE );
+		image1.appliquerElements();
+		
+		
+		film.ajouterImage(image1);
+		film.ajouterImage(image2);
+		
+
+	
 		
 
 

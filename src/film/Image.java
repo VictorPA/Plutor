@@ -192,11 +192,32 @@ public class Image {
 			try {
 				for (int ligne = 0; ligne < tableauElement.length; ++ligne) {
 					for (int colonne = 0; colonne < tableauElement[ligne].length; ++colonne) {
+						if(tableauElement[ligne][colonne] != ' '){
+							tableauDeCaractères[triplet.point.getLigne() + ligne][triplet.point.getColonne() + colonne] = tableauElement[ligne][colonne];
+						}
+						
+					}
+				}
+			} catch (IndexOutOfBoundsException e) {
+				System.out.println(e + "Dépassement certaines parties d'éléments");
+				return;
+			}
+		}
+	}
+	
+	public void appliquerElementsSansEcraser() {
+		for (Triplet triplet : groupeElements) {
+			char[][] tableauElement = triplet.element.getTableauElement();
+			try {
+				for (int ligne = 0; ligne < tableauElement.length; ++ligne) {
+					for (int colonne = 0; colonne < tableauElement[ligne].length; ++colonne) {
+						if (tableauDeCaractères[triplet.point.getLigne() + ligne][triplet.point.getColonne() + colonne] == '\0'
+								|| tableauDeCaractères[triplet.point.getLigne() + ligne][triplet.point.getColonne() + colonne] == ' ')
 						tableauDeCaractères[triplet.point.getLigne() + ligne][triplet.point.getColonne() + colonne] = tableauElement[ligne][colonne];
 					}
 				}
 			} catch (IndexOutOfBoundsException e) {
-				System.out.println(e + " POURQUOI 22 NANIIIIIIIIIIIIII");
+				System.out.println(e + "Dépassement certaines parties d'éléments");
 				return;
 			}
 		}

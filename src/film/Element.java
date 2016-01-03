@@ -39,21 +39,44 @@ public class Element {
 			}
 		}
 	}
-	
-	public Element(char signe,int xLigne, int yColonne){
-		if(xLigne == 0 || yColonne == 0)
-			throw new IllegalArgumentException("valeurs négatives non autorisées");
-		this.nombreLignes = xLigne + 1;
-		this.nombreColonnes = yColonne + 1;
+
+	public Element(char signe, Point pointA, Point pointB) {
+		if (pointA.getColonne() == pointB.getColonne() && pointA.getLigne() == pointB.getLigne())
+			throw new IllegalArgumentException("Coordonnés identiques");
+		this.nombreLignes = Math.abs(pointA.getLigne() - pointB.getLigne()) + 1;
+		this.nombreColonnes = Math.abs(pointA.getColonne() - pointB.getColonne()) + 1;
 		tableauElement = new char[nombreLignes][nombreColonnes];
+
+		Point pointM;
+		if(pointA.getLigne() > pointB.getLigne())
+			pointM = pointB;
+		else
+			pointM = pointA;
+		for (int i = 0; i < nombreLignes; ++i) {
+			for (int c = 0; c < nombreColonnes; ++c) {
+				tableauElement[i][c] = ' ';
+			}
+		}
+		double penteCourbe = ((double)(pointB.getLigne() - pointA.getLigne() - 1))/((double)(pointB.getColonne() - pointA.getColonne() + 1));
+		{
+			int l;
+			double c;
 		
+		for(l = 0, c = (double)this.nombreColonnes-1; l < nombreLignes - 1; ++l, c += (1.00/penteCourbe)){
+			tableauElement[l][Math.abs((int)c)] = signe;
+		System.out.println("OK");
+		}
+
+		}
+
 	}
-	
+
 	private void copierTableau(Image image, int ligneSup, int ligneInf, int colonneGauche, int colonneDroite) {
 		tableauElement = new char[this.nombreLignes][this.nombreColonnes];
 		for (int ligne = 0; ligne < nombreLignes; ++ligne) {
 			for (int colonne = 0; colonne < nombreColonnes; ++colonne) {
 				tableauElement[ligne][colonne] = image.getImage()[ligneSup + ligne][colonneGauche + colonne];
+
 			}
 		}
 	}
